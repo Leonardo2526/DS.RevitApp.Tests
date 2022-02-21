@@ -33,11 +33,13 @@ namespace DS.RVT.ModelSpaceFragmentation
             }
 
             //check min distance
-            double minDist = 1.5 * ElementSize.ElemDiameterF;
-            if (Math.Abs(pathCoords[pathCoords.Count - 2].X - pathCoords[pathCoords.Count - 1].X) <= minDist &&
-                Math.Abs(pathCoords[pathCoords.Count - 2].Y - pathCoords[pathCoords.Count - 1].Y) <= minDist &&
-                Math.Abs(pathCoords[pathCoords.Count - 2].Z - pathCoords[pathCoords.Count - 1].Z) <= minDist)
-                pathCoords.RemoveAt(pathCoords.Count - 2);
+            //double minDist = 1.5 * ElementSize.ElemDiameterF;
+            //if (Math.Abs(pathCoords[pathCoords.Count - 2].X - pathCoords[pathCoords.Count - 1].X) <= minDist &&
+            //    Math.Abs(pathCoords[pathCoords.Count - 2].Y - pathCoords[pathCoords.Count - 1].Y) <= minDist &&
+            //    Math.Abs(pathCoords[pathCoords.Count - 2].Z - pathCoords[pathCoords.Count - 1].Z) <= minDist)
+            //    pathCoords.RemoveAt(pathCoords.Count - 2);
+
+            pathCoords.Add(ElementInfo.EndElemPoint);
 
             return pathCoords;
 
@@ -45,7 +47,6 @@ namespace DS.RVT.ModelSpaceFragmentation
 
         public static void ShowPath(List<XYZ> pathCoords)
         {
-            pathCoords.Add(ElementInfo.EndElemPoint);
 
             //Show path with lines
             LineCreator lineCreator = new LineCreator();

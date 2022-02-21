@@ -36,11 +36,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DS.PathSearch">
+      <HintPath>..\..\DS.Utils\DS.Utils\bin\Release\DS.PathSearch.dll</HintPath>
+    </Reference>
     <Reference Include="DS.RevitUtils.MEP">
       <HintPath>..\..\DS.RevitUtils\DS.RevitUtilsTools\DS.RevitUtils.MEP\bin\Release\DS.RevitUtils.MEP.dll</HintPath>
-    </Reference>
-    <Reference Include="DSUtils">
-      <HintPath>..\..\DSUtils\DSUtils\bin\Release\DSUtils.dll</HintPath>
     </Reference>
     <Reference Include="FrancoGustavo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

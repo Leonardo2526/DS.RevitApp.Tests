@@ -1,9 +1,9 @@
 ﻿using Autodesk.Revit.DB;
 using DS.RVT.ModelSpaceFragmentation;
-using DSUtils.GridMap;
+using DS.PathSearch.GridMap;
 using FrancoGustavo;
 using System.Collections.Generic;
-using Location = DSUtils.Location;
+using Location = DS.PathSearch.Location;
 
 namespace DS.RVT.ModelSpaceFragmentation
 {
