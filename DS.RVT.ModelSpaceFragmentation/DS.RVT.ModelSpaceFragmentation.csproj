@@ -44,7 +44,7 @@
     </Reference>
     <Reference Include="FrancoGustavo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DS.PathSearchAlgorythms\FrancoGustavo\bin\Release\FrancoGustavo.dll</HintPath>
+      <HintPath>..\..\DS.PathSearchAlgorythms\FrancoGustavo\bin\Debug\FrancoGustavo.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>

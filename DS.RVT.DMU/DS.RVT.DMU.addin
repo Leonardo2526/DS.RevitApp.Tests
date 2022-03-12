@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>  
+	<AddIn Type="Application"> 
+    <Name>DS.RVT.DMU</Name>
+		<Assembly>.\DS.RVT.DMU\DS.RVT.DMU.dll</Assembly>
+		 <ClientId>aa8e4ffb-8241-4bce-9470-94df224829c5</ClientId>
+		<FullClassName>DS.RVT.DMU.ExternalApplication</FullClassName>
+		<VendorId>DS</VendorId> 
+	</AddIn>
+</RevitAddIns>
